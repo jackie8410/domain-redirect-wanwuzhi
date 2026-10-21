@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <!-- 0 秒刷新跳转 -->
+  <meta http-equiv="refresh" content="0; url=https://learnforeverything.cn/">
+  <title>正在跳转...</title>
+  <script>
+    // 优先通过 JS 立即重定向，并保留访问者输入的二级路径或哈希
+    const targetOrigin = "https://learnforeverything.cn";
+    window.location.replace(targetOrigin + window.location.search + window.location.hash);
+  </script>
+</head>
+<body>
+  <p>正在前往网站，若未自动跳转，请<a href="https://learnforeverything.cn/">点击此处进入</a>。</p>
+</body>
+</html>
